@@ -1,0 +1,26 @@
+table{
+    margin: auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+.text1{
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  border: 3px solid black;
+}
+th{
+  border: 3px solid black;
+  background-color: aqua;
+}
+tr{
+  border: 3px solid black;
+}
+td{
+  border: 3px solid black;
+}
+td:first-child{
+  background-color: chartreuse;
+}
+td.text2{
+  background-color:unset;
+}
