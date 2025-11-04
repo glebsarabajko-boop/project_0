@@ -16,7 +16,7 @@ int main() {
 		x = x_min + (x_max-x_min) * rand() /(RAND_MAX+1);
 		y = y_min + (y_max - y_min) * rand() / (RAND_MAX + 1);
 
-		if (pow(x , 2) + pow(y , 2) <= pow(r, 2))
+		if (pow(x , 3) + pow(y , 2) <= pow(r, 2))
 			k+=1;
 	}
 	float s1 = S * k / n;
