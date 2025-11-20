@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Main Page</title>
+</head>
+<body>
+    <h1>Welcome from MASTER branch</h1>
+    <p>This content was added in master branch</p>
+</body>
+</html>
